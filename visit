@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plan your visit to the Community Science Museum. Find opening hours, tickets, and accessibility information.">
+    <title>Visit | Community Science Museum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <header class="site-header">
+    <div class="logo">Community Science Museum</div>
+    <nav class="main-nav">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="exhibits.html">Exhibits</a></li>
+        <li><a href="visit.html" class="active">Visit</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <main id="main">
+    <section>
+        <h1>Plan Your Visit</h1>
+        <p>Everything you need to know before exploring the museum.</p>
+        <h2>Opening Hours</h2>
+        <ul>
+        <li>Mon–Fri: 9am – 5pm</li>
+        <li>Saturday: 10am – 6pm</li>
+        <li>Sunday: Closed</li>
+        </ul>
+        <h2>Tickets</h2>
+        <p>Children under 12: Free | Students: £5 | Adults: £10</p>
+        <h2>Accessibility</h2>
+        <p>We are always committed to being as accessible as possible. This museum is wheelchair-friendly and provides sensory guides.</p>
+    </section>
+    </main>
+
+    <footer class="site-footer">
+    <div class="footer-grid">
+        <div>
+        <h3>Our address</h3>
+        <p>St Pauls Churchyard<br>London, EC4M, UK</p>
+        </div>
+        <div>
+        <h3>Contact</h3>
+        <p>Email: info@communitysciencemuseum.org<br>Phone: 020 72468350</p>
+        </div>
+        <div>
+        <h3>Follow Us</h3>
+        <ul class="social">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>\n      </div>
+    </div>
+    <p>&copy; 2025 Community Science Museum</p>
+    </footer>
+</body>
+</html>
