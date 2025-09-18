@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Community Science Museum – Inspiring curiosity for children and families through interactive exhibits and learning experiences.">
+    <title>Community Science Museum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+
+    <header class="site-header">
+    <div class="logo">Community Science Museum</div>
+    <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="exhibits.html">Exhibits</a></li>
+            <li><a href="visit.html">Visit</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+
+
+    <section class="hero" role="banner">
+    <div class="hero-text">
+        <h1>Explore. Discover. Imagine.</h1>
+        <p>Bring science to life at the Community Science Museum – designed for curious kids and families.</p>
+
+        <a href="visit.html" class="btn btn-primary">Plan Your Visit</a>
+    </div>
+    </section>
+
+
+    <main id="main">
+    <section class="exhibits">
+        <h2>Featured Exhibits</h2>
+        <div class="grid">
+        <article>
+            <img src="pics/planet.jpg" alt="Children exploring a space exhibit in the planetarium">
+            <h3>Journey Through Space</h3>
+            <p>Travel across the solar system in our immersive planetarium show.</p>
+        </article>
+        <article>
+            <img src="pics/dino.jpg" alt="Large dinosaur skeleton displayed in the museum">
+            <h3>Dinosaur Discoveries</h3>
+            <p>Step back in time and meet the giants that once walked the Earth.</p>
+        </article>
+        <article>
+            <img src="pics/robo.jpg" alt="Children interacting with a hands-on robot exhibit">
+            <h3>Future Tech & Robotics</h3>
+            <p>Hands-on coding and robotics fun for young inventors.</p>
+        </article>
+        </div>
+    </section>
+
+    
+    <section class="events">
+        <h2>What is going on</h2>
+        <ul class="event-list">
+        <li><strong>Family Science Night:</strong> Sept 20 - Sept 25</li>
+        <li><strong>Robotics Workshop:</strong> Oct 5 - Oct 10</li>
+        <li><strong>Dino Dig Adventure:</strong> Oct 25 - Oct 30</li>
+        </ul>
+        <a href="events.html" class="btn">View All Events</a>
+    </section>
+
+
+    <section class="cta">
+        <h2>Join Our Community</h2>
+        <p>Become a member today and enjoy unlimited visits, discounts, and special events.</p>
+        <a href="membership.html" class="btn btn-secondary">Become a Member</a>
+    </section>
+    </main>
+
+
+    <footer class="site-footer">
+    <div class="footer-grid">
+        <div>
+        <h3>Our address</h3>
+        <p>St Pauls Churchyard<br>London, EC4M, UK</p>
+        </div>
+        <div>
+        <h3>Contact</h3>
+        <p>Email: info@communitysciencemuseum.org<br>Phone: 020 72468350</p>
+        </div>
+        <div>
+        <h3>Follow Us</h3>
+        <nav aria-label="Social media">
+            <ul class="social">
+            <li><a href="#" aria-label="Facebook">Facebook</a></li>
+            <li><a href="#" aria-label="Instagram">Instagram</a></li>
+            <li><a href="#" aria-label="Twitter">Twitter</a></li>
+            </ul>
+        </nav>
+        </div>
+    </div>
+    <p class="copyright">&copy; 2025 Community Science Museum</p>
+    </footer>
+</body>
+</html>
