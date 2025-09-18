@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the interactive exhibits at the Community Science Museum. From dinosaurs to space, there's something for every curious mind.">
+    <title>Exhibits | Community Science Museum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <header class="site-header">
+    <div class="logo">Community Science Museum</div>
+    <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="exhibits.html" class="active">Exhibits</a></li>
+        <li><a href="visit.html">Visit</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <main id="main">
+    <section class="exhibits">
+        <h1>Our Exhibits</h1>
+        <p>Discover hands-on experiences designed to spark curiosity and inspire discovery.</p>
+        <div class="grid">
+        <article>
+            <img src="pics/pexels-pppsdavid-11766167.jpg" alt="Space exhibit">
+            <h2>Journey Through Space</h2>
+            <p>Blast off into the universe in our planetarium and space labs.</p>
+        </article>
+        <article>
+            <img src="pics/dino2.jpg" alt="Dinosaur skeleton exhibit">
+            <h2>Dinosaur Discoveries</h2>
+            <p>Step into the prehistoric age and meet life-sized dinosaur skeletons.</p>
+        </article>
+        <article>
+            <img src="pics/robots.jpg" alt="Robot models">
+            <h2>Future Tech</h2>
+            <p>Explore the world of robotics, coding, and AI through interactive play.</p>
+        </article>
+        </div>
+    </section>
+    </main>
+
+    <footer class="site-footer">
+    <div class="footer-grid">
+        <div>
+        <h3>Our address</h3>
+        <p>St Pauls Churchyard<br>London, EC4M, UK</p>
+        </div>
+        <div>
+        <h3>Contact</h3>
+        <p>Email: info@communitysciencemuseum.org<br>Phone: 020 72468350</p>
+        </div>
+        <div>
+        <h3>Follow Us</h3>
+        <ul class="social">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+        </div>
+    </div>
+    <p>&copy; 2025 Community Science Museum</p>
+    </footer>
+</body>
+</html>
