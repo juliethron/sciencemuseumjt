@@ -1,0 +1,187 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #222;
+    background-color: #fff;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    z-index: 100;
+}
+
+.skip-link:focus {
+top: 0;
+}
+
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 2px solid #eee;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.main-nav ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.main-nav a {
+    padding: 0.5rem;
+    font-weight: 500;
+}
+
+.main-nav a.active,
+.main-nav a:hover {
+    border-bottom: 2px solid #ff5a5f;
+}
+
+.hero {
+    background: url('pics/utafor\ \(1\).jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 6rem 2rem;
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.hero-text {
+    position: relative;
+    z-index: 3;
+}
+    
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    max-width: 600px;
+    margin: 0 auto 1.5rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn-primary {
+    background: #ff5a5f;
+    color: #fff;
+}
+
+.btn-primary:hover { background: #e0484d; }
+.btn-secondary {
+    background: #00a699;
+    color: #fff;
+}
+
+.btn-secondary:hover { background: #00887d; }
+
+
+section {
+    padding: 4rem 2rem;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+
+.exhibits .grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.exhibits article img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.exhibits h3 {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}
+
+
+.event-list {
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    text-align: center;
+}
+
+.event-list li {
+    margin-bottom: 0.5rem;
+}
+
+
+.cta {
+    text-align: center;
+    background: #f5f5f5;
+    border-radius: 12px;
+}
+
+
+.site-footer {
+    background: #222;
+    color: #fff;
+    padding: 2rem;
+    font-size: 0.9rem;
+}
+
+.footer-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-bottom: 1.5rem;
+}
+
+.footer-grid h3 { margin-bottom: 0.5rem; }
+.social li { margin-bottom: 0.25rem; }
+
+
+@media (max-width: 768px) {
+    .hero-text h1 { font-size: 2rem; }
+    .main-nav ul { flex-direction: column; gap: 0.5rem; }
+}
